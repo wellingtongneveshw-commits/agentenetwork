@@ -1,0 +1,23 @@
+{
+  "agent": {
+    "host": "127.0.0.1",
+    "port": 8765,
+    "database": "data/network.db",
+    "scan_interval_seconds": 300,
+    "scan_on_start": true
+  },
+  "network": {
+    "subnet": "",
+    "ping_timeout_ms": 700,
+    "max_hosts": 1024
+  },
+  "lm_studio": {
+    "base_url": "http://127.0.0.1:1234/v1",
+    "model": "",
+    "timeout_seconds": 120
+  },
+  "security": {
+    "allow_lan_api": false,
+    "api_key": ""
+  }
+}
